@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0pt;
+}
+
+.header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+  text-align: center;
+}
+.app-logo {
+  height: 40px;
+  padding: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.section {
+  width: 70vw;
+  margin: 10px auto;
+  font-size: 0.8rem;
+}
+
+.issue-container {
+  width: auto;
+  margin: 10px 0;
+  border: 1px solid rgba(0, 0, 0, 0.288);
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+}
+
+.modify-btn {
+  margin: 0 10px;
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.newIssue-btn {
+  margin: 20px 0 10px 50%;
+
+  transform: translateX(-50%);
+}
+
+.form {
+  position: absolute;
+  background-color: white;
+  width: 90%;
+  min-height: 90%;
+  top: 50%;
+  left: 50%;
+  padding: 30px;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
